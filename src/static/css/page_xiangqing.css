@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html,
+body,
+.box1 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+}
+
+header>ol {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    display: flex;
+}
+
+header>ol>li {
+    flex: 1;
+}
+
+.oli1 {
+    text-align: left;
+    margin-left: 3%;
+}
+
+.oli2 {
+    text-align: center;
+    font-weight: 800;
+    margin-left: -8%;
+}
+
+.oli2>p {
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    margin: 7.5px auto;
+}
+
+.oli2>p>span {
+    display: inline-block;
+}
+
+.oli2>p>.span1 {
+    width: 55%;
+    border-right: 1px solid #ccc;
+    background: #7F7F7F;
+    color: #fff;
+}
+
+.oli3 {
+    text-align: center;
+    margin-right: -8%;
+}
+
+.icon-fenxiang3 {
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.icon-shouye {
+    font-size: 23px;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.nav>ul {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.nav>ul>li {
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+}
+
+.shuoming {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.shuoming h3,
+.shuoming h5,
+.shuoming>p {
+    line-height: 20px;
+    margin-left: 5%;
+}
+
+.center {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 3%;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+.fuwu {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 3%;
+    border-bottom: 1px solid #ccc;
+    font-size: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 45px;
+    border-top: 1px solid #ccc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+}
+
+footer>ul {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    display: flex;
+}
+
+footer>ul>li {
+    flex: 1;
+}
+
+.foot1 {
+    display: flex;
+}
+
+.foot1>.icon {
+    display: inline-block;
+    flex: 1;
+}
+
+.foot2>span {
+    display: inline-block;
+}
+
+.act {
+    color: #BA383D;
+}
+
+.ac {
+    width: 50%;
+    height: 45px;
+    background: #ccc;
+    color: #fff;
+    text-align: center;
+    margin-left: 10%;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "yk",
+  "version": "1.0.0",
+  "description": "月考",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mars-zxz/yk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mars-zxz/yk/issues"
+  },
+  "homepage": "https://github.com/Mars-zxz/yk#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.5.0"
+  }
+}

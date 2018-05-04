@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html,
+body,
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    display: flex;
+}
+
+header>.icon,
+header>span {
+    flex: 1;
+}
+
+.icon-xiangzuo {
+    text-align: left;
+    margin-left: 3%;
+}
+
+header>span {
+    text-align: center;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.icon-fangdajing {
+    text-align: right;
+    margin-right: 3%;
+    font-size: 20px;
+}
+
+nav {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+}
+
+nav>ul {
+    width: 100%;
+    height: 45px;
+    display: flex;
+}
+
+nav>ul>li {
+    flex: 1;
+    text-align: center;
+}
+
+.active {
+    border-bottom: 2px solid #B4282D;
+    color: #B4282D;
+}
