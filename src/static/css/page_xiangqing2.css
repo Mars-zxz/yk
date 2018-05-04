@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,
+body,
+.box3 {
+    width: 100%;
+    height: 100%;
+}
+
+.box3>ol {
+    width: 100%;
+}
+
+.box3>ol>li {
+    border-top: 1px dashed #ccc;
+    line-height: 30px;
+    text-indent: 6%;
+}

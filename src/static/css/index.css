@@ -62,3 +62,27 @@ nav>ul>li {
     border-bottom: 2px solid #B4282D;
     color: #B4282D;
 }
+
+section {
+    width: 100%;
+}
+
+.lists {
+    width: 100%;
+}
+
+.lists>ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lists>ul>li {
+    width: 45%;
+    padding: 2% 2.5%;
+}
+
+.lists>ul>li>img {
+    width: 100%;
+    height: auto;
+}
